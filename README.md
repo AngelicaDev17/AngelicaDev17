@@ -74,6 +74,12 @@
 
 ---
 
+<p align="center">
+  <img src="https://github.com/AngelicaDev17/AngelicaDev17/blob/output/snake.svg" alt="Snake animation" />
+</p>
+
+---
+
 ✨ Obrigada por visitar meu perfil!
 
 
