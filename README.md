@@ -51,7 +51,7 @@
 
 ## 📫 Como me encontrar
 <p align="center">
-  <a href="https://github.com/Angelica-Silva">
+  <a href="https://github.com/AngelicaDev17">
     <img src="https://img.shields.io/badge/GitHub-000?style=for-the-badge&logo=github&logoColor=white" />
   </a>
 </p>
