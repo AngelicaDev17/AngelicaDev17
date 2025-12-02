@@ -1,4 +1,4 @@
-<h1 align="center">👋 Olá! Eu sou a Angélica Silva</h1>
+<h1 align="center">👋 Olá! Eu sou a Angélica Silva 😊</h1>
 
 <p align="center">
   Desenvolvedora <strong>Full-stack</strong> em constante evolução.
