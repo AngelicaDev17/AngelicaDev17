@@ -2,30 +2,29 @@ name: Generate Snake
 
 on:
   schedule:
-    - cron: "0 */6 * * *"
+    - cron: "0 */6 * * *" 
   workflow_dispatch:
 
 jobs:
-  build:
+  generate:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: Platane/snk@v3
+      - name: Checar repositório
+        uses: actions/checkout@v4
+
+      - name: Gerar animação Snake
+        uses: Platane/snk@v3
         with:
           github_user_name: AngelicaDev17
           outputs: |
             dist/snake.svg
-      - uses: actions/upload-artifact@v4
-        with:
-          name: snake
-          path: dist/snake.svg
-      - uses: actions/checkout@v4
-      - run: mkdir -p dist
-      - uses: actions/download-artifact@v4
-        with:
-          name: snake
-          path: dist
-      - uses: stefanzweifel/git-auto-commit-action@v5
+
+      - name: Commit do arquivo gerado
+        uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "Atualizando animação Snake"
+          branch: output
           file_pattern: dist/snake.svg
+
 
