@@ -2,7 +2,7 @@ name: Generate Snake
 
 on:
   schedule:
-    - cron: "0 */6 * * *" 
+    - cron: "0 */6 * * *"
   workflow_dispatch:
 
 jobs:
@@ -12,6 +12,16 @@ jobs:
     steps:
       - name: Checar repositório
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0   # necessário para criar branch
+
+      - name: Criar branch output se não existir
+        run: |
+          if ! git ls-remote --heads origin output | grep output; then
+            git checkout -b output
+            git push origin output
+          fi
+        shell: bash
 
       - name: Gerar animação Snake
         uses: Platane/snk@v3
@@ -26,5 +36,6 @@ jobs:
           commit_message: "Atualizando animação Snake"
           branch: output
           file_pattern: dist/snake.svg
+
 
 
