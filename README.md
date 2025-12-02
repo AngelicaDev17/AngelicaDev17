@@ -75,8 +75,9 @@
 ---
 
 <p align="center">
-  <img src="https://github.com/AngelicaDev17/AngelicaDev17/blob/output/snake.svg" alt="Snake Game contribuições" />
+  <img src="https://raw.githubusercontent.com/AngelicaDev17/AngelicaDev17/output/dist/SUA_ANIMACAO.svg" alt="Snake Game contribuições" />
 </p>
+
 
 
 ---
