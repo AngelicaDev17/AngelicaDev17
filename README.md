@@ -12,7 +12,6 @@
   <img src="https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif" width="500" alt="Pacman Anime GIF animado" />
 </p>
 
-
 ---
 
 ## 🚀 Sobre mim
@@ -42,26 +41,11 @@
 ## 📊 Estatísticas do GitHub
 
 <p align="center">
-  <img
-    height="180"
-    src="https://img.shields.io/badge/Dados%20do%20GitHub-Carregando...-blue?style=for-the-badge"
-  />
-</p>
-
-<p align="center">
   <img 
     height="160" 
     src="https://streak-stats.demolab.com?user=AngelicaDev17&theme=tokyonight&locale=pt-br" 
   />
 </p>
-
-<p align="center">
-  <img 
-    height="160" 
-    src="https://github-readme-streak-stats.herokuapp.com?user=AngelicaDev17&theme=tokyonight&date_format=j%20M%5B%20Y%5D" 
-  />
-</p>
-
 
 ---
 
@@ -74,6 +58,8 @@
 
 ---
 
+## 🐍 Snake Animation
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/AngelicaDev17/AngelicaDev17/output/dist/snake.svg" alt="Snake animation" />
 </p>
@@ -81,5 +67,3 @@
 ---
 
 ✨ Obrigada por visitar meu perfil!
-
-
