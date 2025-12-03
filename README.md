@@ -9,9 +9,9 @@
 ## 🎮✨ GIF
 
 <p align="center">
-  <img src="https://github-readme-streak-stats-eight.vercel.app?user=SeuUsuario
-" width="500" alt="Pacman Anime GIF animado" />
+  <img src="https://media.giphy.com/media/26AHONQ79FdWZhAI0/giphy.gif" width="500" alt="Pacman Anime GIF animado" />
 </p>
+
 
 ---
 
