@@ -15,7 +15,7 @@
 
 ---
 
-## 🚀 Sobre mim
+## ✨ Um pouco sobre mim
 - 💻 Apaixonada por tecnologia e desenvolvimento web  
 - 📚 Estudando e praticando diariamente  
 - 🌱 Buscando me tornar uma desenvolvedora full-stack completa  
